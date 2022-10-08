@@ -129,7 +129,7 @@
         infinite: true,
         autoplay: true,
         slidesToShow: 1,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 3000,
         prevArrow: ".main_left_arrow",
         nextArrow: ".main_right_arrow"
     });
