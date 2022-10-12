@@ -5006,6 +5006,6 @@ button {
 /* media screen and (max-width: 380px) - end
 ================================================== */
 
-.item_services {
+.item_services li {
   color: #DEDEDE;
 }
