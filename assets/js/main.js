@@ -280,7 +280,7 @@
         slidesToShow: 2,
         slidesToScroll: 1,
         pauseOnHover: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 1024,
