@@ -1923,7 +1923,7 @@ button {
 }
 .main_slider h3 {
   line-height: 1;
-  font-size: 120px;
+  font-size: 80px;
   margin-bottom: 0px;
 }
 
@@ -4827,6 +4827,10 @@ button {
 
   .main_slider h3 {
     font-size: 80px;
+  }
+
+  .long_desc {
+    font-size: 60px !important;
   }
 
   .section_title.style_2 .big_title {
