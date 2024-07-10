@@ -60,6 +60,8 @@
 /* 1.1 Template Fonts - start
 ================================================== */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oswald:wght@200..700&display=swap');
 @font-face {
   font-family: "Calibre";
   src: url("../fonts/calibre/Calibre-Thin.ttf");
@@ -1524,6 +1526,7 @@ button {
   position: absolute;
   right: 30px;
 }
+
 @media (max-width: 1300px) {
   .header_contact_info {
     display: none;
@@ -5064,7 +5067,7 @@ ul.item_services li {
 
 .video-banner .overlay {
   position: absolute;
-  top: 85%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -5073,14 +5076,18 @@ ul.item_services li {
 }
 
 .video-banner .overlay h1 {
-  font-size: 56px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 72px;
   color: white;
   margin: 0;
-  font-family: Georgia, serif;
 }
 
 .video-banner .overlay p {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 32px;
   margin: 10px 0 0;
-  font-family: sans-serif;
 }
