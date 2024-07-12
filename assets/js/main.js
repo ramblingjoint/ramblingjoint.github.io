@@ -486,4 +486,9 @@
         }); 
     }
 
+
+    /* Dymanic Date for Copyright */
+    var date = new Date().getFullYear();
+    document.getElementById("year").innerHTML = date;
+
 })(jQuery);
